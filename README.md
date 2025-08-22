@@ -37,8 +37,11 @@ Update settings:
 Example:
 
 ```js
-createClass("btn").config({ ignoreDuplicate: true, separator: "-", prefix: "[", suffix: "]" }).add(true, "primary").end("large");
-// "[btn-primary-large]"
+  createClass("btn")
+    .config({ ignoreDuplicate: true, separator: "-", prefix: "[", suffix: "]" })
+    .add(true, "primary")
+    .end("large");
+    // "[btn-primary-large]"
 ```
 
 ---
